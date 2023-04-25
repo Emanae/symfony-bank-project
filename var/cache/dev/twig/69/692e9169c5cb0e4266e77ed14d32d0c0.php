@@ -92,18 +92,10 @@ class __TwigTemplate_2a8e8c8ac13a1c9cd6e8e64e2cd4cc24 extends Template
 
 <div class=\"example-wrapper\">
     <h1>Bienvenue sur votre application banquaire</h1>
+    <a href='/register'>S'insricre</a>
+    <br>
+    <a href='/login'>Se Connecter</a>
 
-    This friendly message is coming from:
-    <ul>
-        <li>Your controller at <code><a href=\"";
-        // line 16
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\CodeExtension']->getFileLink("/Users/mathilde/Documents/Cours/M1_DEV/symfony/bank/symfony-bank-project/bank/src/Controller/BankController.php", 0), "html", null, true);
-        echo "\">src/Controller/BankController.php</a></code></li>
-        <li>Your template at <code><a href=\"";
-        // line 17
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\CodeExtension']->getFileLink("/Users/mathilde/Documents/Cours/M1_DEV/symfony/bank/symfony-bank-project/bank/templates/bank/index.html.twig", 0), "html", null, true);
-        echo "\">templates/bank/index.html.twig</a></code></li>
-    </ul>
 </div>
 ";
         
@@ -126,7 +118,7 @@ class __TwigTemplate_2a8e8c8ac13a1c9cd6e8e64e2cd4cc24 extends Template
 
     public function getDebugInfo()
     {
-        return array (  104 => 17,  100 => 16,  88 => 6,  78 => 5,  59 => 3,  36 => 1,);
+        return array (  88 => 6,  78 => 5,  59 => 3,  36 => 1,);
     }
 
     public function getSourceContext()
@@ -143,15 +135,13 @@ class __TwigTemplate_2a8e8c8ac13a1c9cd6e8e64e2cd4cc24 extends Template
 
 <div class=\"example-wrapper\">
     <h1>Bienvenue sur votre application banquaire</h1>
+    <a href='/register'>S'insricre</a>
+    <br>
+    <a href='/login'>Se Connecter</a>
 
-    This friendly message is coming from:
-    <ul>
-        <li>Your controller at <code><a href=\"{{ '/Users/mathilde/Documents/Cours/M1_DEV/symfony/bank/symfony-bank-project/bank/src/Controller/BankController.php'|file_link(0) }}\">src/Controller/BankController.php</a></code></li>
-        <li>Your template at <code><a href=\"{{ '/Users/mathilde/Documents/Cours/M1_DEV/symfony/bank/symfony-bank-project/bank/templates/bank/index.html.twig'|file_link(0) }}\">templates/bank/index.html.twig</a></code></li>
-    </ul>
 </div>
 {% endblock %}
 
-", "bank/index.html.twig", "/Users/mathilde/Documents/Cours/M1_DEV/symfony/bank/symfony-bank-project/bank/templates/bank/index.html.twig");
+", "bank/index.html.twig", "/Users/mathilde/Documents/Cours/M1_DEV/symfony/bank/symfony-bank-project/templates/bank/index.html.twig");
     }
 }
